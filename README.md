@@ -6,6 +6,8 @@ Try running the following commands:
 - dbt run
 - dbt test
 
+To run tests on specific models
+- dbt test --select my_model_name.sql
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
